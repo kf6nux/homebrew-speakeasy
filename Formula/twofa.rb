@@ -6,8 +6,7 @@ class Twofa < Formula
 
   bottle do
     root_url "https://dl.bintray.com/sqreen/bottles-sqreen"
-    cellar :any_skip_relocation
-    sha256 "402cd887480da35c0f54558517ff263178688fede04bed14f0eee08a2ea980da" => :mojave
+    sha256 cellar: :any_skip_relocation, mojave: "402cd887480da35c0f54558517ff263178688fede04bed14f0eee08a2ea980da"
   end
 
   def install
